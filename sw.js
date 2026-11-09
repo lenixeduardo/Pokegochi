@@ -1,0 +1,5 @@
+const CACHE='tamagotchi-v9-offline-v1';
+const ASSETS=["./", "./index.html", "./assets/sprites/kanto.source.json", "./assets/sprites/2.png", "./assets/sprites/9.png", "./assets/sprites/5.png", "./assets/sprites/3.png", "./assets/sprites/7.png", "./assets/sprites/1.png", "./assets/sprites/4.png", "./assets/sprites/manifest.json", "./assets/sprites/8.png", "./assets/sprites/6.png", "./assets/sprites/integrity.json", "./assets/scenes/legacy.png", "./assets/scenes/bedroom.png", "./assets/scenes/activities.png", "./assets/scenes/garden.png", "./assets/scenes/evolution.png", "./assets/objects/berry.png", "./assets/objects/bed.png", "./assets/objects/water.png", "./assets/objects/toy.png", "./pokemon_catalog.json"];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
+self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
+self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)))});

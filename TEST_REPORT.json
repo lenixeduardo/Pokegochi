@@ -1,0 +1,15 @@
+{
+  "choice_visible": true,
+  "starter_count": 3,
+  "chosen": "bulbasaur",
+  "garden_visible": true,
+  "bedroom_visible": true,
+  "activities_visible": true,
+  "evolution_visible": true,
+  "legacy_visible": true,
+  "all_nine_png_decode": "Verified via Pillow, browser data-URL sprite visible",
+  "sprite_visible": true,
+  "js_stage_1": true,
+  "js_stage_2": true,
+  "stage": 2
+}

@@ -1,0 +1,1 @@
+V6: cenarios e objetos originais separados. Os 9 sprites Pokemon nao estao presentes: execute download_sprites.py e coloque os PNGs 1..9 em assets/sprites/. Sem isso o jogo tenta a URL oficial e nao funciona totalmente offline. Nao redesenhamos nenhum Pokemon.
