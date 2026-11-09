@@ -1,0 +1,56 @@
+{
+  "sprite_integrity": [
+    {
+      "id": 1,
+      "sha256": "7307265558511ea080add119ab7e86b9f87aaab4cedef76df2a13290ca5ad8c9",
+      "identical": true
+    },
+    {
+      "id": 2,
+      "sha256": "0d73b98081fcaa3fe22524d47573da3391a24465dc31c92c4ce2f1c00d14908e",
+      "identical": true
+    },
+    {
+      "id": 3,
+      "sha256": "f3ed13e1666f67ccf6aef1453d4a3fb0ceb6b6c5769c56f9e46ec4ac021542af",
+      "identical": true
+    },
+    {
+      "id": 4,
+      "sha256": "4e943ded73aff00aa8323800481412cf0912649d640f5ad5021e8e1e2b3e77c6",
+      "identical": true
+    },
+    {
+      "id": 5,
+      "sha256": "bcde3e81319fa632e1aa953ea3ea07752b7b467f268f3ef8079f23c81b07b1e4",
+      "identical": true
+    },
+    {
+      "id": 6,
+      "sha256": "53358b7e8be91014bd18285862bd56c0549b5d23af175deb59f0e6f6339c878f",
+      "identical": true
+    },
+    {
+      "id": 7,
+      "sha256": "1309dd0971ab7c5cd1699fa6ead8b00c9d8fa7f39e09313e697b3d31527f0517",
+      "identical": true
+    },
+    {
+      "id": 8,
+      "sha256": "b134db468e452916048b96f574d7a2342b401ddb67c061473a88d92e78943f48",
+      "identical": true
+    },
+    {
+      "id": 9,
+      "sha256": "440579ff6026385631d7fe17377e5e58da3f0088531afffb527fbb8c3936dc34",
+      "identical": true
+    }
+  ],
+  "scenes": {
+    "garden": 95446,
+    "bedroom": 84177,
+    "activities": 6623,
+    "evolution": 8978,
+    "legacy": 6851
+  }
+}

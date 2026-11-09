@@ -1,0 +1,17 @@
+{
+  "Bulbasaur": {
+    "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:46187/\nCall log:\n  - navigating to \"http://127.0.0.1:46187/\", waiting until \"load\"\n",
+    "errors": [],
+    "failedRequests": []
+  },
+  "Charmander": {
+    "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:46187/\nCall log:\n  - navigating to \"http://127.0.0.1:46187/\", waiting until \"load\"\n",
+    "errors": [],
+    "failedRequests": []
+  },
+  "Squirtle": {
+    "error": "Page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at http://127.0.0.1:46187/\nCall log:\n  - navigating to \"http://127.0.0.1:46187/\", waiting until \"load\"\n",
+    "errors": [],
+    "failedRequests": []
+  }
+}
